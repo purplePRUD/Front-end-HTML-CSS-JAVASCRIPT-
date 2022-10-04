@@ -53,7 +53,7 @@ p {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 5px;
     padding-bottom: 90px;
 }
 
@@ -83,6 +83,9 @@ p {
     text-decoration: none;
 }
 
+.education h3 {
+    margin-top: 55px;
+}
 
 .education p {
     margin-top: 30px;
@@ -160,8 +163,8 @@ p {
     position: fixed;
     right: 10px;
     bottom: 50px;
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
     border-color: transparent;
     border-radius: 50%;
     background-color: #af7171;
@@ -184,19 +187,19 @@ p {
 }
 
 .back-to-top::before {
-    width: 5px;
-    height: 25px;
+    width: 3px;
+    height: 16px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; 
     background-color: #fff;
 }
 
 .back-to-top::after {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     transform: translate(-50%, -50%) rotate(45deg);
-    border-top: 5px solid #fff;
-    border-left: 5px solid #fff;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
